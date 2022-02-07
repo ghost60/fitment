@@ -22,7 +22,7 @@ export default function Header() {
             <CustomLink to="/case">客户案例</CustomLink>
           </li>
           <li className="p-2 cursor-pointer">
-            <CustomLink to="/about">关于我们</CustomLink>
+            <CustomLink to="/contact">联系我们</CustomLink>
           </li>
         </ul>
         </nav>

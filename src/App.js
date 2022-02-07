@@ -6,13 +6,13 @@ import {
 import Home from './pages/home';
 import Abstract from './pages/abstract';
 import Case from './pages/case';
-import About from './pages/about';
+import Contact from './pages/contact';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/case" element={<Case />} />
         <Route path="/abstract" element={<Abstract />} />
         <Route path="/" element={<Home />}  />

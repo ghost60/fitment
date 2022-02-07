@@ -1,22 +1,33 @@
 import React from "react";
+import image from "../../image/common/wechart.jpg";
+import "../../styles/footer.scss";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-600 h-60 mt-8">
-      <ul className="footer-menu">
-        <li id="menu-item-31" className="menu-item current-menu-item current_page_item menu-item-31"><a
-          href="http://www.guilingzi.com" aria-current="page">首页</a></li>
-        <li id="menu-item-387" className="menu-item menu-item-387"><a
-          href="http://www.guilingzi.com/jianjie">鬼灵子简介</a>
-        </li>
-        <li id="menu-item-1525" className="menu-item menu-item-1525"><a
-          href="http://www.guilingzi.com/category/case">客户案例</a></li>
-        <li id="menu-item-1533" className="menu-item menu-item-1533"><a
-          href="http://www.guilingzi.com/contact">联系我们</a>
-        </li>
-      </ul>
-      <p>Copyright © 2018 WPCOM 版权所有 Powered by <a href="https://www.guilingzi.com" target="_blank"
-                                                   rel="noopener">李天瑞工作室</a></p>
+    <footer className="footer flex flex-col justify-center items-center py-4">
+      <div className="text-white">
+        <a className="mx-1.5" href="/" aria-current="page">
+          首页
+        </a>
+        |
+        <a className="mx-1.5" href="/abstract">
+          工作室简介
+        </a>
+        |
+        <a className="mx-1.5" href="/case">
+          客户案例
+        </a>
+        |
+        <a className="mx-1.5" href="/contact">
+          联系我们
+        </a>
+      </div>
+      <p className="mt-2 text-white text-sm">
+        Copyright © 2022 版权所有 Powered by{" "}
+        <a href="/" target="_blank">
+          李天瑞工作室
+        </a>
+      </p>
     </footer>
   );
 }
