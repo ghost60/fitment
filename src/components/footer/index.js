@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../../image/common/wechart.jpg";
 import "../../styles/footer.scss";
 
 export default function Footer() {

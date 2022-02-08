@@ -6,10 +6,12 @@ export default function Abstract() {
   return (
     <>
       <Header />
-      <img
-        src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/themes/module/images/banner.jpg"
-        alt="banner"
-      />
+      <section className="mt-16">
+        <img
+          src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/themes/module/images/banner.jpg"
+          alt="banner"
+        />
+      </section>
       <section className="flex flex-col items-center mb-12">
         <span className="text-2xl font-medium my-14">李天瑞设计室简介</span>
         <div className="w-4/5 subpixel-antialiased">
