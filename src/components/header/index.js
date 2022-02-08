@@ -14,7 +14,7 @@ export default function Header() {
     setVisible(false);
   };
   return (
-    <header className="fixed top-0 z-50 w-full h-16 flex flex-row justify-between items-center px-12 bg-white border border-solid border-gray-200 shadow">
+    <header className="fixed top-0 z-50 w-full h-16 flex flex-row justify-between items-center px-4 sm:px-16 bg-white border border-solid border-gray-200 shadow">
       <div>
         <span className="text-2xl">李天瑞工作室</span>
       </div>
@@ -28,6 +28,9 @@ export default function Header() {
           </li>
           <li className="p-2 cursor-pointer">
             <CustomLink to="/case">客户案例</CustomLink>
+          </li>
+          <li className="p-2 cursor-pointer">
+            <CustomLink to="/news">装修知识</CustomLink>
           </li>
           <li className="p-2 cursor-pointer">
             <CustomLink to="/contact">联系我们</CustomLink>
@@ -46,6 +49,9 @@ export default function Header() {
             </li>
             <li className="p-2">
               <CustomLink to="/case">客户案例</CustomLink>
+            </li>
+            <li className="p-2">
+              <CustomLink to="/case">装修知识</CustomLink>
             </li>
             <li className="p-2">
               <CustomLink to="/contact">联系我们</CustomLink>

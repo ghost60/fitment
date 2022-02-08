@@ -1,0 +1,17 @@
+.section-3 {
+  background-image: url("http://www.guilingzi.com/wp-content/uploads/2018/02/shutterstock_156031910.jpg");
+}
+.long-title-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.long-content-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

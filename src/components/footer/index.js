@@ -17,6 +17,10 @@ export default function Footer() {
           客户案例
         </a>
         |
+        <a className="mx-1.5" href="/news">
+          装修知识
+        </a>
+        |
         <a className="mx-1.5" href="/contact">
           联系我们
         </a>

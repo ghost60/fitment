@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
-import { BackTop } from 'antd';
+import { BackTop } from "antd";
 import "../../styles/home.scss";
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
       <section className="flex flex-col items-center">
         <span className="text-2xl font-medium my-14">我们擅长的专业领域</span>
         <div className="w-4/5">
-          <ul className="flex flex-wrap justify-center md:px-10">
+          <ul className="flex flex-wrap justify-center">
             <li className="flex flex-col items-center justify-center bg-blue-500 h-56 md:w-1/4 w-1/2 p-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <p className="text-white text-xl font-medium my-1.5">前期咨询</p>
               <p className="text-white text-center">
@@ -55,76 +55,82 @@ export default function Home() {
       <section className="flex flex-col items-center">
         <span className="text-2xl font-medium my-14">精品客户案例</span>
         <div className="w-4/5">
-          <ul className="flex flex-wrap justify-center md:px-10">
-            <li>
-              <a className="relative block" href="/">
+          <ul className="flex flex-wrap justify-center mb-14">
+            <li className="w-1/2 sm:w-1/3">
+              <a className="relative block" href="/caseDetails/0001">
+              <div className="absolute w-full h-full bg-green-500 bg-opacity-0 hover:bg-opacity-40"></div>
                 <img
-                  className="h-60 w-full md:w-80 object-cover"
+                  className="object-cover"
                   src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2020/12/11-2.jpg"
                   alt="四口之家"
                 />
                 <div className="absolute bottom-0 left-0 w-full h-10 text-center">
-                  <h3 className="text-white font-medium">四口之家</h3>
+                  <h3 className="text-white font-medium text-xl">四口之家</h3>
                 </div>
               </a>
             </li>
-            <li>
-              <a className="relative block" href="/">
+            <li className="w-1/2 sm:w-1/3">
+              <a className="relative block" href="/caseDetails/0001">
+              <div className="absolute w-full h-full bg-green-500 bg-opacity-0 hover:bg-opacity-40"></div>
                 <img
-                  className="h-60 w-full md:w-80 object-cover"
+                  className="object-cover"
                   src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2020/12/11-2.jpg"
                   alt="四口之家"
                 />
                 <div className="absolute bottom-0 left-0 w-full h-10 text-center">
-                  <h3 className="text-white font-medium">四口之家</h3>
+                  <h3 className="text-white font-medium text-xl">四口之家</h3>
                 </div>
               </a>
             </li>
-            <li>
-              <a className="relative block" href="/">
+            <li className="w-1/2 sm:w-1/3">
+              <a className="relative block" href="/caseDetails/0001">
+              <div className="absolute w-full h-full bg-green-500 bg-opacity-0 hover:bg-opacity-40"></div>
                 <img
-                  className="h-60 w-full md:w-80 object-cover"
+                  className="object-cover"
                   src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2020/12/11-2.jpg"
                   alt="四口之家"
                 />
                 <div className="absolute bottom-0 left-0 w-full h-10 text-center">
-                  <h3 className="text-white font-medium">四口之家</h3>
+                  <h3 className="text-white font-medium text-xl">四口之家</h3>
                 </div>
               </a>
             </li>
-            <li>
-              <a className="relative block" href="/">
+            <li className="w-1/2 sm:w-1/3">
+              <a className="relative block" href="/caseDetails/0001">
+              <div className="absolute w-full h-full bg-green-500 bg-opacity-0 hover:bg-opacity-40"></div>
                 <img
-                  className="h-60 w-full md:w-80 object-cover"
+                  className="object-cover"
                   src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2020/12/11-2.jpg"
                   alt="四口之家"
                 />
                 <div className="absolute bottom-0 left-0 w-full h-10 text-center">
-                  <h3 className="text-white font-medium">四口之家</h3>
+                  <h3 className="text-white font-medium text-xl">四口之家</h3>
                 </div>
               </a>
             </li>
-            <li>
-              <a className="relative block" href="/">
+            <li className="w-1/2 sm:w-1/3">
+              <a className="relative block" href="/caseDetails/0001">
+              <div className="absolute w-full h-full bg-green-500 bg-opacity-0 hover:bg-opacity-40"></div>
                 <img
-                  className="h-60 w-full md:w-80 object-cover"
+                  className="object-cover"
                   src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2020/12/11-2.jpg"
                   alt="四口之家"
                 />
                 <div className="absolute bottom-0 left-0 w-full h-10 text-center">
-                  <h3 className="text-white font-medium">四口之家</h3>
+                  <h3 className="text-white font-medium text-xl">四口之家</h3>
                 </div>
               </a>
             </li>
-            <li>
-              <a className="relative block" href="/">
+            <li className="w-1/2 sm:w-1/3">
+              <a className="relative block" href="/caseDetails/0001">
+              <div className="absolute w-full h-full bg-green-500 bg-opacity-0 hover:bg-opacity-40"></div>
                 <img
-                  className="h-60 w-full md:w-80 object-cover"
+                  className="object-cover"
                   src="https://www-guilingzi-com.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2020/12/11-2.jpg"
                   alt="四口之家"
                 />
                 <div className="absolute bottom-0 left-0 w-full h-10 text-center">
-                  <h3 className="text-white font-medium">四口之家</h3>
+                  <h3 className="text-white font-medium text-xl">四口之家</h3>
                 </div>
               </a>
             </li>
@@ -175,94 +181,95 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center bg-green-300 pb-14">
         <span className="text-2xl font-medium my-14">设计心得</span>
-        <div className="w-4/5">
-          <ul className="flex flex-wrap">
-            <li className="flex w-full md:w-1/2 px-2 my-2">
-              <div className="flex flex-col mr-2 w-32">
-                <span className="text-5xl">27</span>
-                <span className="whitespace-nowrap">2020-02</span>
-              </div>
-              <div>
-                <a
-                  className="long-title-text text-xl font-medium"
-                  href="/"
-                  title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
-                >
-                  室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
-                </a>
-                <p className="long-content-text text-sm mt-1">
-                  色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
-                </p>
-              </div>
-            </li>
-            <li className="flex w-full md:w-1/2 px-2 my-2">
-              <div className="flex flex-col mr-2 w-32">
-                <span className="text-5xl">27</span>
-                <span className="whitespace-nowrap">2020-02</span>
-              </div>
-              <div>
-                <a
-                  className="long-title-text text-xl font-medium"
-                  href="/"
-                  title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
-                >
-                  室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
-                </a>
-                <p className="long-content-text text-sm mt-1">
-                  色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
-                </p>
-              </div>
-            </li>
-            <li className="flex w-full md:w-1/2 px-2 my-2">
-              <div className="flex flex-col mr-2 w-32">
-                <span className="text-5xl">27</span>
-                <span className="whitespace-nowrap">2020-02</span>
-              </div>
-              <div>
-                <a
-                  className="long-title-text text-xl font-medium"
-                  href="/"
-                  title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
-                >
-                  室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
-                </a>
-                <p className="long-content-text text-sm mt-1">
-                  色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
-                </p>
-              </div>
-            </li>
-            <li className="flex w-full md:w-1/2 px-2 my-2">
-              <div className="flex flex-col mr-2 w-32">
-                <span className="text-5xl">27</span>
-                <span className="whitespace-nowrap">2020-02</span>
-              </div>
-              <div>
-                <a
-                  className="long-title-text text-xl font-medium"
-                  href="/"
-                  title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
-                >
-                  室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
-                </a>
-                <p className="long-content-text text-sm mt-1">
-                  色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
-                </p>
-              </div>
-            </li>
-          </ul>
-          <div class="module-more">
-            <a
-              class="btn btn-round btn-dark more-link"
-              href="http://www.guilingzi.com/category/news"
-            >
-              查看更多
-            </a>
-          </div>
+        <ul className="w-4/5 flex flex-wrap">
+          <li className="flex w-full md:w-1/2 px-2 my-2">
+            <div className="flex flex-col mr-2 w-32">
+              <span className="text-5xl">27</span>
+              <span className="whitespace-nowrap">2020-02</span>
+            </div>
+            <div>
+              <a
+                className="long-title-text text-xl font-medium"
+                href="/"
+                title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
+              >
+                室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
+              </a>
+              <p className="long-content-text text-sm mt-1">
+                色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
+              </p>
+            </div>
+          </li>
+          <li className="flex w-full md:w-1/2 px-2 my-2">
+            <div className="flex flex-col mr-2 w-32">
+              <span className="text-5xl">27</span>
+              <span className="whitespace-nowrap">2020-02</span>
+            </div>
+            <div>
+              <a
+                className="long-title-text text-xl font-medium"
+                href="/"
+                title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
+              >
+                室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
+              </a>
+              <p className="long-content-text text-sm mt-1">
+                色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
+              </p>
+            </div>
+          </li>
+          <li className="flex w-full md:w-1/2 px-2 my-2">
+            <div className="flex flex-col mr-2 w-32">
+              <span className="text-5xl">27</span>
+              <span className="whitespace-nowrap">2020-02</span>
+            </div>
+            <div>
+              <a
+                className="long-title-text text-xl font-medium"
+                href="/"
+                title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
+              >
+                室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
+              </a>
+              <p className="long-content-text text-sm mt-1">
+                色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
+              </p>
+            </div>
+          </li>
+          <li className="flex w-full md:w-1/2 px-2 my-2">
+            <div className="flex flex-col mr-2 w-32">
+              <span className="text-5xl">27</span>
+              <span className="whitespace-nowrap">2020-02</span>
+            </div>
+            <div>
+              <a
+                className="long-title-text text-xl font-medium"
+                href="/"
+                title="室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋"
+              >
+                室内设计如何搭配颜色，只需简单了解四个角色，小白也能搭配出美屋
+              </a>
+              <p className="long-content-text text-sm mt-1">
+                色彩搭配，其实没有大家想的那么难，而且在很多人看来还非常的简单，因为每个人都具有天生的审美感，所以在装修的时候，很多业主可以依靠自己的直觉或者是知识，或者是借鉴一些其他事物搭配出精美的装修案例，当然也有很多业主的搭配是非常的失败的，主次不分，杂乱无章。经常有业主咨询我们如何搭配色彩，其实很简单，只要大家知道了四个基本点，就可以搭配出自己的美屋了。在一个空间里面所有的色彩一定是要有主次之分的，所以在室内装修设计里面，我们可以把整个空间色彩分成四个部分：背景色，主角色，配角色，点缀色，如果是在搭配的…
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="mt-12 px-8 py-2 border border-white rounded-lg text-white text-lg">
+          <a
+            href="news"
+          >
+            查看更多
+          </a>
         </div>
       </section>
       <section className="flex flex-col items-center mb-12">
-        <span className="text-xl md:text-2xl font-medium mt-14 text-center">我们已为超过200个楼盘的客户提供室内设计方案</span>
-        <span className="text-xl md:text-2xl font-medium my-2 text-center">累计超过1000个设计案例</span>
+        <span className="text-xl md:text-2xl font-medium mt-14 text-center">
+          我们已为超过200个楼盘的客户提供室内设计方案
+        </span>
+        <span className="text-xl md:text-2xl font-medium my-2 text-center">
+          累计超过1000个设计案例
+        </span>
       </section>
       <BackTop />
       <Footer />
